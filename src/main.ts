@@ -4,7 +4,6 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 
-// @ts-ignore
 createApp(App)
   .use(store)
   .use(router)
